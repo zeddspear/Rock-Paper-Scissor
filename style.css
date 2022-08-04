@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    padding: none;
+    margin: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+
+.Headings{
+ text-align: center;
+}
+
+
+H1 {
+    font-size: 80px;
+    font-weight: 1000;
+    color: brown;
+}
+
+
+.Headings p:nth-child(2){
+    font-size: 30px;
+    font-weight: 700;
+}
+.Headings p:nth-child(3){
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+.btns{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+}
+
+.Rock , .Paper , .Scissor {
+    font-size: 20px;
+    background-color: rgb(219, 80, 80);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 30px 5px 30px;
+    cursor: pointer;
+    border: none;
+}
+
+button:active{
+    transform: scale(0.96);
+}
+
+.result {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.result span {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0 30px 0;
+    border: 3px solid black;
+    width: 350px;
+    height: 120px;
+}
+
+.again {
+    background-color: rgb(197, 86, 86);
+    border-radius: 10px;
+    padding: 2px 20px 2px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.playerscr{
+    border: 3px solid black;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.computerscr{
+    border: 3px solid black;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -10px;
+}
+
+
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.side div{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.side span {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+
+
+
